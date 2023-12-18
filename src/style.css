@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    margin: 0;
+    padding: 10px 40% 10px;
+    background-color: #F55A5A;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.navbar-title {
+    width: 109px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.085px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    margin: 1% 35%;
+}
+
+.main-image {
+    width: 125px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.main-sub-container {
+    margin: 5px 10px;
+}
+
+.main-caption-container {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    margin-bottom: -20px;
+}
+
+.main-icon {
+    width: 7px;
+    height: 9.545px;
+    flex-shrink: 0;
+    margin-right: 5px; 
+}
+
+.main-location {
+    width: 40px;
+    height: 10px;
+    flex-shrink: 0;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+    margin-right: 10px; 
+}
+
+.main-gmapsurl {
+    width: 120px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #918E9B;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding-left: 10px;
+}
+
+.main-title {
+    width: 326px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-date {
+    width: 319px;
+    height: 11px;
+    flex-shrink: 0;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-description {
+    width: 326px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+}
+
