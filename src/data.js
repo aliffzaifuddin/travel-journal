@@ -27,18 +27,17 @@ const data = [
         endDate: "18 Nov, 2021",
         description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
         imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
+    },
+    {
+        id: 4,
+        title: "Kuala Lumpur",
+        location: "Malaysia",
+        googleMapsUrl: "https://www.google.com/maps?q=kuala+lumpur+city&source=lmns&entry=mc&bih=936&biw=1904&rlz=1C1MSIM_enUS783US783&hl=en&sa=X&ved=2ahUKEwi6y72nz5mDAxW2micCHW2qBUkQi6AMKAJ6BAgBEAY",
+        startDate: "01 Oct, 2022",
+        endDate: "18 Nov, 2022",
+        description: "Kuala Lumpur is a modern city in the heart of Malaysia. Chances are if you think of Malaysia, you will instantly think of Kuala Lumpur, specifically the iconic Petronas Twin Towers in the heart of the city.",
+        imageUrl: "https://media.istockphoto.com/id/509105016/photo/kuala-lumpur-skyline.jpg?s=612x612&w=0&k=20&c=tSyLLCf0of04a9N5l4gDG8IJ2RHJwDupzchJk_WPw0U="
     }
 ]
 
 export default data;
-
-/* 
-id: ,
-title: "",
-location: "",
-googleMapsUrl: "",
-startDate: "",
-endDate: "",
-description: "",
-imageUrl: ""
-*/
