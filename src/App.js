@@ -5,7 +5,6 @@ import data from "./data"
 
 export default function App() {
     
-    console.log(data)
     const hero = data.map(item => {
         return (
             <Main
